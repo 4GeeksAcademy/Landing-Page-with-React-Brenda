@@ -16,7 +16,7 @@ body {
 
   .card-img-top {
    height: 70%;
-    object-fit: cover; /* Hace que la imagen se ajuste y recorte adecuadamente */
+    object-fit: cover;
   }
 
  
