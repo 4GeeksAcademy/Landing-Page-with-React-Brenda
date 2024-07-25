@@ -1,12 +1,22 @@
+body {
+    background-color:#a0c0ca;}
 
-/* 
+.custom-jumbotron {
+    background-color: #a0c0ca;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  .card {
+     width: 100%; 
+    height: 500px; 
+    display: flex;
+    justify-content: space-between;
+    }
+  
+      
 
-*/
+  .card-img-top {
+   height: 70%;
+    object-fit: cover; /* Hace que la imagen se ajuste y recorte adecuadamente */
+  }
+
+ 
